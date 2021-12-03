@@ -7,6 +7,6 @@ JOIN mines_dgo.dates as dat ON cont.fk_mindate = dat.id_date
 JOIN mines_dgo.mines as min ON cont.fk_mindate = min.id_mine 
 JOIN mines_dgo.locations as loc ON min.fk_loc = loc.id_loc 
 JOIN mines_dgo.mun as mun ON loc.fk_mun = mun.id_mun
---To fetch all every record comment the followin code lines
+--To fetch all every record comment the following code lines
 limit 10
 ;
